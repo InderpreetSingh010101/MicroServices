@@ -41,6 +41,7 @@ public class RabbitmqApplication {
 		return connectionFactory;
 	}
 
+	@Bean
 	public MessageConverter messageConverter(){
 		ObjectMapper objectMapper = new ObjectMapper().findAndRegisterModules() ;
 
