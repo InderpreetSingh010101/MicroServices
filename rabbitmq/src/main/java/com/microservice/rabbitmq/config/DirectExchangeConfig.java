@@ -68,9 +68,6 @@ public class DirectExchangeConfig {
         amqpAdmin.declareExchange(createDirectExchange());
         amqpAdmin.declareBinding(createDirectBinding1());
         amqpAdmin.declareBinding(createDirectBinding2());
-
-
-
     }
 
 }
